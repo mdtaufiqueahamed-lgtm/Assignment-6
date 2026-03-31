@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality blog posts and marketing copy in seconds using advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited AI Words", "Plagiarism Checker", "20+ Languages"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Dash",
+    "description": "Access over 5,000+ premium UI components and website templates for your next project.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Figma & Sketch Files", "Commercial License", "Lifetime Updates"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1162/1162283.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium SEO Assets",
+    "description": "Rank higher on Google with our curated list of high-authority backlink sources.",
+    "price": 89,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Weekly Keyword Reports", "Competitor Analysis", "Backlink Tracker"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055644.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Connect your favorite apps and automate repetitive tasks without writing any code.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Hot",
+    "tagType": "hot",
+    "features": ["50+ Integrations", "Real-time Sync", "Error Monitoring"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1332/1332194.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional, ATS-friendly resumes that help you land your dream job faster.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": ["ATS Optimization", "10+ Premium Templates", "PDF Export"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2986/2986345.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "A complete bundle of social media graphics and captions for consistent posting.",
+    "price": 39,
+    "period": "yearly",
+    "tag": "Featured",
+    "tagType": "featured",
+    "features": ["Instagram Templates", "Canva Editable", "Post Scheduler"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1968/1968641.png"
+  }
+]
