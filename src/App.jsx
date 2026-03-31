@@ -57,7 +57,7 @@ function App() {
   return (
     <>
       <Navbar cartCount={cart.length} />
-      {/* <Banner /> */}
+      <Banner />
       {/* <Stats /> */}
       
       {/* <ToggleSection 
