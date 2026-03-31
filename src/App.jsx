@@ -91,7 +91,7 @@ function App() {
 
        <ToastContainer position="top-center" autoClose={2000} /> 
       <Steps></Steps>
-      {/* <Pricing></Pricing> */}
+      <Pricing></Pricing>
     </>
   );
 }
