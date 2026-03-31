@@ -58,7 +58,7 @@ function App() {
     <>
       <Navbar cartCount={cart.length} />
       <Banner />
-      {/* <Stats /> */}
+      <Stats />
       
       {/* <ToggleSection 
         showCart={showCart} 
