@@ -12,6 +12,7 @@ import Cart from './components/Cart/Cart';
 import ProductCard from './components/ProductCard/ProductCard';
 import Steps from './components/Steps/Steps';
 import Pricing from './components/Pricing/Pricing';
+import Subscribe from './components/Subscribe/Subscribe';
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -92,6 +93,7 @@ function App() {
        <ToastContainer position="top-center" autoClose={2000} /> 
       <Steps></Steps>
       <Pricing></Pricing>
+      <Subscribe></Subscribe>
     </>
   );
 }
