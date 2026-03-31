@@ -6,18 +6,21 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
+
+
 import Stats from './components/Stats/Stats';
-import ToggleSection from './components/ToggleSection/ToggleSection';
+    import ToggleSection from './components/ToggleSection/ToggleSection';
 import Cart from './components/Cart/Cart';
 import ProductCard from './components/ProductCard/ProductCard';
 import Steps from './components/Steps/Steps';
 import Pricing from './components/Pricing/Pricing';
 import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [products, setProducts] = useState([]);
   const [showCart, setShowCart] = useState(false);
-  const [cart, setCart] = useState([]);
+const [cart, setCart] = useState([]);
 
   
   useEffect(() => {
@@ -34,9 +37,9 @@ function App() {
     const isExist = cart.find(item => item.id === product.id);
     if (!isExist) {
       setCart([...cart, product]);
-      toast.success("পণ্যটি কার্টে যোগ করা হয়েছে!");
+      toast.success("The product has been added to the cart!");
     } else {
-      toast.warn("এটি ইতিমধ্যে কার্টে আছে।");
+      toast.warn("This item is already in the cart.");
     }
   };
 
@@ -44,14 +47,14 @@ function App() {
   const handleRemove = (id) => {
     const remainingCart = cart.filter(item => item.id !== id);
     setCart(remainingCart);
-    toast.error("পণ্যটি সরিয়ে ফেলা হয়েছে।");
+    toast.error("The product has been removed.");
   };
 
   
   const handleCheckout = () => {
     if (cart.length > 0) {
       setCart([]);
-      toast.info("চেকআউট সফল হয়েছে!");
+      toast.info("Checkout successful!");
     }
   };
 
@@ -94,6 +97,7 @@ function App() {
       <Steps></Steps>
       <Pricing></Pricing>
       <Subscribe></Subscribe>
+      <Footer></Footer>
     </>
   );
 }

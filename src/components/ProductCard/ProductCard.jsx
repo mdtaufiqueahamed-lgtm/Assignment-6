@@ -26,7 +26,7 @@ const ProductCard = ({ product, handleAddToCart, cart }) => {
           </div>
         ))}
       </div>
-      {/* লাইন ২৯ এর আশেপাশে */}
+      
 <button 
   onClick={() => handleAddToCart(product)}
   className="btn btn-primary w-full bg-purple-600 hover:bg-purple-700 border-none rounded-xl"
