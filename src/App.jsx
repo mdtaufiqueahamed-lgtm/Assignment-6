@@ -90,8 +90,8 @@ function App() {
       </div> 
 
        <ToastContainer position="top-center" autoClose={2000} /> 
-      {/* <Steps></Steps>
-      <Pricing></Pricing> */}
+      <Steps></Steps>
+      {/* <Pricing></Pricing> */}
     </>
   );
 }
