@@ -2,15 +2,15 @@ import React from 'react';
 
 const Subscribe = () => {
   return (
-    <section className="py-20"> {/* বাইরের প্যাডিং সরিয়ে দেওয়া হয়েছে যাতে পূর্ণ উইডথ পায় */}
+    <section className="py-20"> 
       <div className="w-full bg-[#7C3AED] p-8 md:p-20 text-center relative overflow-hidden">
-        {/* container এবং rounded-[40px] সরিয়ে দেওয়া হয়েছে যাতে এটি স্ক্রিনের দুই পাশে লেগে থাকে */}
         
-        {/* Background Decorative Circles */}
+        
+        
         <div className="absolute top-0 left-0 w-48 h-48 bg-white/10 rounded-full -ml-24 -mt-24"></div>
         <div className="absolute bottom-0 right-0 w-48 h-48 bg-black/10 rounded-full -mr-24 -mb-24"></div>
 
-        <div className="relative z-10 max-w-5xl mx-auto"> {/* টেক্সটগুলো মাঝখানে রাখার জন্য এখানে max-w রাখা হয়েছে */}
+        <div className="relative z-10 max-w-5xl mx-auto"> 
           <h2 className="text-3xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
             Ready to level up your <br className="hidden md:block" /> digital workflow?
           </h2>

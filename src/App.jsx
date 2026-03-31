@@ -19,7 +19,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   const [products, setProducts] = useState([]);
-  const [showCart, setShowCart] = useState(false);
+const [showCart, setShowCart] = useState(false);
 const [cart, setCart] = useState([]);
 
   
@@ -27,7 +27,7 @@ const [cart, setCart] = useState([]);
   fetch('/public/product.json')
     .then(res => res.json())
     .then(data => {
-       console.log("My Data:", data); 
+      console.log("My Data:", data); 
        setProducts(data);
     })
 }, []);

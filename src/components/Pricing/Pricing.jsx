@@ -31,13 +31,13 @@ const Pricing = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="w-full container mx-auto px-4">
-        {/* Header */}
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Simple, Transparent Pricing</h2>
           <p className="text-gray-500">Choose the plan that works best for you and your business.</p>
         </div>
 
-        {/* Pricing Cards */}
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div 

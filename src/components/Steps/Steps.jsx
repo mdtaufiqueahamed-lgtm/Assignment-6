@@ -38,7 +38,7 @@ const Steps = () => {
           </p>
         </div>
 
-        {/* Steps Cards */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {stepData.map((step) => (
             <div 

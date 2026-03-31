@@ -10,7 +10,7 @@ const Cart = ({ cart, handleRemove, handleCheckout }) => {
       
       {cart.length === 0 ? (
         <div className="text-center py-12">
-          <p className="text-gray-400">আপনার কার্টে বর্তমানে কোনো পণ্য নেই।</p>
+          <p className="text-gray-400">Your cart is currently empty.</p>
         </div>
       ) : (
         <div className="space-y-4">
