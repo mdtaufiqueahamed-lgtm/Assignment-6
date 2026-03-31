@@ -60,24 +60,24 @@ function App() {
       <Banner />
       <Stats />
       
-      {/* <ToggleSection 
+      <ToggleSection 
         showCart={showCart} 
         setShowCart={setShowCart} 
         cartCount={cart.length} 
-      /> */}
+      />
 
-      {/* <div className="container mx-auto px-4 pb-20">
+      <div className="container mx-auto px-4 pb-20">
         {!showCart ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
-            {/* {products.map(product => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
+             {products.map(product => (
   <ProductCard 
     key={product.id} 
     product={product} 
     handleAddToCart={handleAddToCart} 
     cart={cart} 
   />
-))} */}
-          {/* </div>
+))}
+           </div>
         ) : (
           <div className="max-w-3xl mx-auto">
             <Cart 
@@ -87,9 +87,9 @@ function App() {
             />
           </div>
         )}
-      </div> */}
+      </div> 
 
-      {/* <ToastContainer position="top-center" autoClose={2000} /> */}
+       <ToastContainer position="top-center" autoClose={2000} /> 
       {/* <Steps></Steps>
       <Pricing></Pricing> */}
     </>
