@@ -24,7 +24,7 @@ const [cart, setCart] = useState([]);
 
   
   useEffect(() => {
-  fetch('/public/product.json')
+  fetch('/product.json')
     .then(res => res.json())
     .then(data => {
       console.log("My Data:", data); 
